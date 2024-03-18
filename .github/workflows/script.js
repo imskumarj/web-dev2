@@ -1,5 +1,3 @@
-// script.js
-
 const apiKey = '516b57cbc9397264cdc68e1538604455';
 
 async function getWeather() {
