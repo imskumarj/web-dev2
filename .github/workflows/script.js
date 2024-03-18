@@ -11,7 +11,6 @@ async function getWeather() {
         if (response.ok) {
             displayWeather(data);
         } else {
-            // Handle city not found error
             alert('City not found. Please check the spelling.');
         }
     } catch (error) {
